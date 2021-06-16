@@ -3,23 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		75C1D752260A9273004B84DF /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0A260A920E00F14013 /* RxSwift.xcframework */; };
-		75C1D753260A9273004B84DF /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0C260A920E00F14013 /* RxCocoa.xcframework */; };
-		75C1D754260A9273004B84DF /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0B260A920E00F14013 /* RxRelay.xcframework */; };
-		75C1D755260A9273004B84DF /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE09260A920E00F14013 /* RxBlocking.xcframework */; };
-		75C1D756260A9273004B84DF /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0D260A920E00F14013 /* RxTest.xcframework */; };
+		6D868985267A310900D64BE3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D868982267A310900D64BE3 /* RxSwift.framework */; };
+		6D868986267A310900D64BE3 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D868982267A310900D64BE3 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6D868987267A310900D64BE3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D868983267A310900D64BE3 /* RxCocoa.framework */; };
+		6D868988267A310900D64BE3 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D868983267A310900D64BE3 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6D868989267A310900D64BE3 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D868984267A310900D64BE3 /* RxRelay.framework */; };
+		6D86898A267A310900D64BE3 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6D868984267A310900D64BE3 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6D86898C267A313F00D64BE3 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D868983267A310900D64BE3 /* RxCocoa.framework */; };
+		6D86898D267A313F00D64BE3 /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D868984267A310900D64BE3 /* RxRelay.framework */; };
+		6D86898E267A313F00D64BE3 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D868982267A310900D64BE3 /* RxSwift.framework */; };
+		6D868991267A313F00D64BE3 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D86898F267A313F00D64BE3 /* RxBlocking.framework */; };
+		6D868992267A313F00D64BE3 /* RxTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D868990267A313F00D64BE3 /* RxTest.framework */; };
 		75FDEE01260A8E2500F14013 /* GenericRxGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5177B1E4FED3900A65547 /* GenericRxGestureRecognizerDelegate.swift */; };
 		75FDEE05260A8E2600F14013 /* GenericRxGestureRecognizerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A5177B1E4FED3900A65547 /* GenericRxGestureRecognizerDelegate.swift */; };
-		75FDEE10260A920E00F14013 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0A260A920E00F14013 /* RxSwift.xcframework */; };
-		75FDEE11260A920E00F14013 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0A260A920E00F14013 /* RxSwift.xcframework */; };
-		75FDEE12260A920E00F14013 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0B260A920E00F14013 /* RxRelay.xcframework */; };
-		75FDEE13260A920E00F14013 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0B260A920E00F14013 /* RxRelay.xcframework */; };
-		75FDEE14260A920E00F14013 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0C260A920E00F14013 /* RxCocoa.xcframework */; };
-		75FDEE15260A920E00F14013 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FDEE0C260A920E00F14013 /* RxCocoa.xcframework */; };
 		874DD3DD1FAD067200A61D4F /* GestureRecognizer+RxGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DD3DC1FAD067200A61D4F /* GestureRecognizer+RxGesture.swift */; };
 		874DD3DE1FAD067200A61D4F /* GestureRecognizer+RxGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DD3DC1FAD067200A61D4F /* GestureRecognizer+RxGesture.swift */; };
 		874DD3E11FAD068500A61D4F /* ForceTouchGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DD3DF1FAD068500A61D4F /* ForceTouchGestureRecognizer.swift */; };
@@ -63,12 +63,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6D86898B267A310900D64BE3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6D868988267A310900D64BE3 /* RxCocoa.framework in Embed Frameworks */,
+				6D868986267A310900D64BE3 /* RxSwift.framework in Embed Frameworks */,
+				6D86898A267A310900D64BE3 /* RxRelay.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		75FDEE09260A920E00F14013 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = ../Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
-		75FDEE0A260A920E00F14013 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = ../Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
-		75FDEE0B260A920E00F14013 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = ../Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
-		75FDEE0C260A920E00F14013 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = ../Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
-		75FDEE0D260A920E00F14013 /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = ../Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
+		6D868982267A310900D64BE3 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = ../Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		6D868983267A310900D64BE3 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = ../Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		6D868984267A310900D64BE3 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = ../Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		6D86898F267A313F00D64BE3 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = ../Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		6D868990267A313F00D64BE3 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = ../Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
 		874DD3DC1FAD067200A61D4F /* GestureRecognizer+RxGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GestureRecognizer+RxGesture.swift"; sourceTree = "<group>"; };
 		874DD3DF1FAD068500A61D4F /* ForceTouchGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceTouchGestureRecognizer.swift; sourceTree = "<group>"; };
 		874DD3E01FAD068500A61D4F /* TouchDownGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchDownGestureRecognizer.swift; sourceTree = "<group>"; };
@@ -106,13 +122,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75C1D756260A9273004B84DF /* RxTest.xcframework in Frameworks */,
-				75C1D752260A9273004B84DF /* RxSwift.xcframework in Frameworks */,
-				75C1D753260A9273004B84DF /* RxCocoa.xcframework in Frameworks */,
 				87AF2B591FAE527B0002FC29 /* RxGesture.framework in Frameworks */,
-				75C1D754260A9273004B84DF /* RxRelay.xcframework in Frameworks */,
-				75C1D755260A9273004B84DF /* RxBlocking.xcframework in Frameworks */,
 				87AF2B581FAE51680002FC29 /* Foundation.framework in Frameworks */,
+				6D868991267A313F00D64BE3 /* RxBlocking.framework in Frameworks */,
+				6D868992267A313F00D64BE3 /* RxTest.framework in Frameworks */,
+				6D86898C267A313F00D64BE3 /* RxCocoa.framework in Frameworks */,
+				6D86898D267A313F00D64BE3 /* RxRelay.framework in Frameworks */,
+				6D86898E267A313F00D64BE3 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,9 +136,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75FDEE15260A920E00F14013 /* RxCocoa.xcframework in Frameworks */,
-				75FDEE11260A920E00F14013 /* RxSwift.xcframework in Frameworks */,
-				75FDEE13260A920E00F14013 /* RxRelay.xcframework in Frameworks */,
 				87F8F7371E511E9D00C3B1BE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -131,9 +144,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75FDEE14260A920E00F14013 /* RxCocoa.xcframework in Frameworks */,
-				75FDEE10260A920E00F14013 /* RxSwift.xcframework in Frameworks */,
-				75FDEE12260A920E00F14013 /* RxRelay.xcframework in Frameworks */,
+				6D868989267A310900D64BE3 /* RxRelay.framework in Frameworks */,
+				6D868987267A310900D64BE3 /* RxCocoa.framework in Frameworks */,
+				6D868985267A310900D64BE3 /* RxSwift.framework in Frameworks */,
 				F4CC4C571DEBAF98009ED835 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,11 +242,11 @@
 		F4CC4C4E1DEBACC7009ED835 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				75FDEE09260A920E00F14013 /* RxBlocking.xcframework */,
-				75FDEE0C260A920E00F14013 /* RxCocoa.xcframework */,
-				75FDEE0B260A920E00F14013 /* RxRelay.xcframework */,
-				75FDEE0A260A920E00F14013 /* RxSwift.xcframework */,
-				75FDEE0D260A920E00F14013 /* RxTest.xcframework */,
+				6D86898F267A313F00D64BE3 /* RxBlocking.framework */,
+				6D868990267A313F00D64BE3 /* RxTest.framework */,
+				6D868983267A310900D64BE3 /* RxCocoa.framework */,
+				6D868984267A310900D64BE3 /* RxRelay.framework */,
+				6D868982267A310900D64BE3 /* RxSwift.framework */,
 				F4CC4C4F1DEBACC7009ED835 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -306,6 +319,7 @@
 				F4CC4C191DEBA895009ED835 /* Frameworks */,
 				F4CC4C1A1DEBA895009ED835 /* Headers */,
 				F4CC4C1B1DEBA895009ED835 /* Resources */,
+				6D86898B267A310900D64BE3 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -502,11 +516,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "RxGesture-iOS-Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RxSwiftCommunity.RxGesture.iOS.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -529,11 +539,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = "RxGesture-iOS-Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RxSwiftCommunity.RxGesture.iOS.Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -555,11 +561,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = RxGesture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = RxSwiftCommunity.RxGesture.macOS;
 				PRODUCT_NAME = RxGesture;
@@ -583,11 +585,7 @@
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = RxGesture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = RxSwiftCommunity.RxGesture.macOS;
 				PRODUCT_NAME = RxGesture;
@@ -711,8 +709,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -735,11 +732,7 @@
 				INFOPLIST_FILE = RxGesture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RxSwiftCommunity.RxGesture.iOS;
 				PRODUCT_NAME = RxGesture;
 				SKIP_INSTALL = YES;
@@ -762,11 +755,7 @@
 				INFOPLIST_FILE = RxGesture/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RxSwiftCommunity.RxGesture.iOS;
 				PRODUCT_NAME = RxGesture;
 				SKIP_INSTALL = YES;
